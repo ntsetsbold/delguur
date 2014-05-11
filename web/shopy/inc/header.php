@@ -1,0 +1,509 @@
+<!-- PAGE WRAPPER -->
+<div id="page-wrapper">
+
+	<!-- SITE HEADER -->
+	<header id="site-header" role="banner">
+		<!-- HEADER TOP -->
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-7">
+						<!-- CONTACT INFO -->
+						<div class="contact-info">
+							<i class="iconfont-headphones round-icon"></i>
+							<strong>+976 7777 7777</strong>
+							<span>(Да- Ба: 09.00 - 21.00)</span>
+							</div>
+						<!-- // CONTACT INFO -->
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-5">
+						<ul class="actions unstyled clearfix">
+							<li>
+								<!-- SEARCH BOX -->
+								<div class="search-box">
+									<form action="#" method="post">
+										<div class="input-iconed prepend">
+											<button class="input-icon"><i class="iconfont-search"></i></button>
+											<label for="input-search" class="placeholder">Хайлт...</label>
+											<input type="text" name="q" id="input-search" class="round-input full-width" required />
+										</div>
+									</form>
+								</div>
+								<!-- // SEARCH BOX -->
+							</li>
+							<li data-toggle="sub-header" data-target="#sub-social">
+								<!-- SOCIAL ICONS -->
+								<a href="javascript:void(0);" id="social-icons">
+									<i class="iconfont-share round-icon"></i>
+								</a>
+								
+								<div id="sub-social" class="sub-header">
+									<ul class="social-list unstyled text-center">
+										<li><a href="#"><i class="iconfont-facebook round-icon"></i></a></li>
+										<li><a href="#"><i class="iconfont-twitter round-icon"></i></a></li>
+										<li><a href="#"><i class="iconfont-google-plus round-icon"></i></a></li>
+										<li><a href="#"><i class="iconfont-pinterest round-icon"></i></a></li>
+										<li><a href="#"><i class="iconfont-rss round-icon"></i></a></li>
+									</ul>
+								</div>
+								<!-- // SOCIAL ICONS -->
+							</li>
+							<li data-toggle="sub-header" data-target="#sub-cart">
+								<!-- SHOPPING CART -->
+								<a href="javascript:void(0);" id="total-cart">
+									<i class="iconfont-shopping-cart round-icon"></i>
+								</a>
+								
+								<div id="sub-cart" class="sub-header">
+									<div class="cart-header">
+										<span>Your cart is currently empty.</span>
+										<small><a href="./cart.php">(See All)</a></small>
+									</div>
+									<ul class="cart-items product-medialist unstyled clearfix"></ul>
+									<div class="cart-footer">
+										<div class="cart-total clearfix">
+											<span class="pull-left uppercase">Total</span>
+											<span class="pull-right total">$ 0</span>
+										</div>
+										<div class="text-right">
+											<a href="./cart.php" class="btn btn-default btn-round view-cart">View Cart</a>
+										</div>
+									</div>
+								</div>
+								<!-- // SHOPPING CART -->
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ADD TO CART MESSAGE -->
+			<div class="cart-notification">
+				<ul class="unstyled"></ul>
+			</div>
+			<!-- // ADD TO CART MESSAGE -->
+		</div>
+		<!-- // HEADER TOP -->
+		<!-- MAIN HEADER -->
+		<div class="main-header-wrapper">
+			<div class="container">
+				<div class="main-header">
+					<!-- CURRENCY / LANGUAGE / USER MENU -->
+					<div class="actions">
+						<div class="center-xs">
+							<!-- CURRENCY -->
+							<ul class="option-list unstyled">
+								<li>&nbsp;</li>
+							</ul>
+							<!-- // CURRENCY -->
+							<!-- LANGUAGES -->
+						</div>
+						<div class="clearfix"></div>
+						<!-- USER RELATED MENU -->
+						<nav id="tiny-menu" class="clearfix">
+							<ul class="user-menu">
+								<li><a href="#">Хувийн тохиргоо</a></li>
+								<li><a href="cart.php">Хүслийн жагсаалт</a></li>
+								<li><a href="#">Миний захиалгууд</a></li>
+								<li><a href="#">Гарах</a></li>
+							</ul>
+						</nav>
+						<!-- // USER RELATED MENU -->
+					</div>
+					<!-- // CURRENCY / LANGUAGE / USER MENU -->
+					<!-- SITE LOGO -->
+					<div class="logo-wrapper">
+						<a href="./" class="logo" title="GFashion - Responsive e-commerce HTML Template">
+							<img src="img/logo.png" alt="GFashion - Responsive e-commerce HTML Template" />
+						</a>
+					</div>
+					<!-- // SITE LOGO -->
+					<!-- SITE NAVIGATION MENU -->
+					<nav id="site-menu" role="navigation">
+						<ul class="main-menu hidden-sm hidden-xs">
+                            <li>
+                                <a href="products.php">Электрон</a>
+
+                                <!-- MEGA MENU -->
+                                <div class="mega-menu" data-col-lg="12" data-col-md="12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Clothing</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Accessories</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Brands</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="carousel slide m-b" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="text-semibold uppercase m-b-sm">Featured Products</h5>
+                                            <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque.</p>
+                                            <a href="products.php" class="btn btn-default btn-round">Go to Shop →</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- // MEGA MENU -->
+
+                            </li>
+                            <li>
+                                <a href="products.php">Эрэгтэй</a>
+
+                                <!-- MEGA MENU -->
+                                <div class="mega-menu" data-col-lg="12" data-col-md="12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Clothing</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Accessories</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Brands</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="carousel slide m-b" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="text-semibold uppercase m-b-sm">Featured Products</h5>
+                                            <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque.</p>
+                                            <a href="products.php" class="btn btn-default btn-round">Go to Shop →</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- // MEGA MENU -->
+
+                            </li>
+                            <li>
+                                <a href="products.php">Хүүхэд</a>
+
+                                <!-- MEGA MENU -->
+                                <div class="mega-menu" data-col-lg="12" data-col-md="12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Clothing</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Accessories</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Brands</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="carousel slide m-b" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="text-semibold uppercase m-b-sm">Featured Products</h5>
+                                            <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque.</p>
+                                            <a href="products.php" class="btn btn-default btn-round">Go to Shop →</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- // MEGA MENU -->
+
+                            </li>
+
+                            <li>
+                                <a href="products.php">Тавилга</a>
+
+                                <!-- MEGA MENU -->
+                                <div class="mega-menu" data-col-lg="12" data-col-md="12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Clothing</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Accessories</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Brands</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="carousel slide m-b" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="text-semibold uppercase m-b-sm">Featured Products</h5>
+                                            <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque.</p>
+                                            <a href="products.php" class="btn btn-default btn-round">Go to Shop →</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- // MEGA MENU -->
+
+                            </li>
+
+                            <li>
+                                <a href="products.php">Ном & медиа</a>
+
+                                <!-- MEGA MENU -->
+                                <div class="mega-menu" data-col-lg="12" data-col-md="12">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Clothing</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Accessories</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <h4 class="menu-title">Brands</h4>
+                                            <ul class="mega-sub">
+                                                <li><a href="products.php">Casual Wear</a></li>
+                                                <li><a href="products.php">Evening Wear</a></li>
+                                                <li><a href="products.php">Formal Attire</a></li>
+                                                <li><a href="products.php">Womens Jeans</a></li>
+                                                <li><a href="products.php">Mens Jeans</a></li>
+                                                <li><a href="products.php">Fall Styles</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="carousel slide m-b" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="img/dummy/450x600.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="text-semibold uppercase m-b-sm">Featured Products</h5>
+                                            <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Etiam neque velit, blandit sed scelerisque.</p>
+                                            <a href="products.php" class="btn btn-default btn-round">Go to Shop →</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- // MEGA MENU -->
+
+                            </li>
+
+                        </ul>
+						
+						<!-- MOBILE MENU -->
+						<div id="mobile-menu" class="dl-menuwrapper visible-xs visible-sm">
+							<button class="dl-trigger"><i class="iconfont-reorder round-icon"></i></button>
+							<ul class="dl-menu">
+								<li class="active">
+									<a href="javsacript:void(0);">Home</a>
+								</li>
+								<li>
+									<a href="javsacript:void(0);">Women</a>
+								</li>
+								<li>
+									<a href="javsacript:void(0);">Men</a>
+									
+									<ul class="dl-submenu">
+										<li>
+											<a href="products.php">Clothing</a>
+											<ul class="dl-submenu">
+												<li><a href="products.php">Casual Wear</a></li>
+												<li><a href="products.php">Evening Wear</a></li>
+												<li><a href="products.php">Formal Attire</a></li>
+												<li><a href="products.php">Womens Jeans</a></li>
+												<li><a href="products.php">Mens Jeans</a></li>
+												<li><a href="products.php">Fall Styles</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="products.php">Accessories</a>
+											<ul class="dl-submenu">
+												<li><a href="products.php">Casual Wear</a></li>
+												<li><a href="products.php">Evening Wear</a></li>
+												<li><a href="products.php">Formal Attire</a></li>
+												<li><a href="products.php">Womens Jeans</a></li>
+												<li><a href="products.php">Mens Jeans</a></li>
+												<li><a href="products.php">Fall Styles</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="products.php">Brands</a>
+											<ul class="dl-submenu">
+												<li><a href="products.php">Casual Wear</a></li>
+												<li><a href="products.php">Evening Wear</a></li>
+												<li><a href="products.php">Formal Attire</a></li>
+												<li><a href="products.php">Womens Jeans</a></li>
+												<li><a href="products.php">Mens Jeans</a></li>
+												<li><a href="products.php">Fall Styles</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- // MOBILE MENU -->
+
+					</nav>
+					<!-- // SITE NAVIGATION MENU -->
+				</div>
+			</div>
+		</div>
+		<!-- // MAIN HEADER -->
+	</header>
+	<!-- // SITE HEADER -->
