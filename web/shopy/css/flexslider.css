@@ -94,18 +94,18 @@ html[xmlns] .slides {display: block;}
 	padding: 10px 0;
 }
 .flex-prev {
-	left: 50px;
+	left: 10px;
 }
 .flex-next {
-	right: 50px;
+	right: 10px;
 }
 .flexslider:hover .flex-direction-nav .flex-next {
 	opacity: 1;
-	right: 80px;
+	right: 30px;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
 	opacity: 1;
-	left: 80px;
+	left: 30px;
 }
 
 .flex-control-nav {

@@ -11,7 +11,7 @@
 						
 						<div class="col-xs-12 col-sm-6 col-md-3">
 							<section class="widget widget-text">
-								<h5 class="widget-title">our store</h5>
+								<h5 class="widget-title">Бидний тухай</h5>
 								<div class="widget-content">
 									<p>Sed ornare cras donec litora integer curabitur orci, at nullam aliquam libero nam himenaeos, amet massa amet ut ipsum viverra mauris rhoncus neque aenean rhoncus gravida orci facilisis quis dui consectetur.</p>
 									<p>Nisi porttitor inceptos consectetur donec orci, dui ipsum leo class gravida, felis primis viverra placerat.</p>
@@ -21,13 +21,13 @@
 						
 						<div class="col-xs-12 col-sm-6 col-md-3">
 							<section class="widget widget-text">
-								<h5 class="widget-title">Opening Time</h5>
+								<h5 class="widget-title">Ажлын цаг</h5>
 								<div class="widget-content">
-									<p>Monday-Friday:-------------------------9.00 to 18.00</p>
-									<p>Saturday:--------------------------------10.00 to 16.00</p>
-									<p>Sunday:----------------------------------10.00 to 16.00</p>
+									<p>Даваа-Баасан:-------------------------9.00 - 18.00</p>
+									<p>Бямба:-----------------------------------10.00 - 16.00</p>
+									<p>Ням:--------------------------------------10.00 - 16.00</p>
 									<br/>
-									<p>Every 30 day of month Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+<!--									<p>Every 30 day of month Lorem ipsum dolor sit amet, consectetur adipiscing.</p>-->
 								</div>
 							</section>
 						</div>
@@ -36,15 +36,14 @@
 						
 						<div class="col-xs-12 col-sm-6 col-md-3">
 							<section class="widget widget-menu">
-								<h5 class="widget-title">information</h5>
+								<h5 class="widget-title">Хэрэгтэй холбоос</h5>
 								<div class="widget-content">
 									<ul class="menu iconed-menu unstyled">
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Affiliate</a></li>
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Shipping</a></li>
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Shop support</a></li>
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Customer Service</a></li>
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Payment & Return</a></li>
-										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Terms & Conditions</a></li>
+										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Бидний тухай</a></li>
+										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Үйлчилгээний нөхцөл</a></li>
+										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Нууцлалын баталгаа</a></li>
+										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Тусламж</a></li>
+										<li><a href="#"><i class="iconfont-circle-blank menu-icon"></i>Хамтран ажиллах</a></li>
 									</ul>
 								</div>
 							</section>
@@ -66,20 +65,20 @@
 						
 						<div class="col-xs-12 col-sm-12 col-md-3">
 							<section class="widget widget-menu">
-								<h5 class="widget-title">Contact info</h5>
+								<h5 class="widget-title">Холбоо барих</h5>
 								<div class="widget-content">
 									<ul class="menu iconed-list unstyled">
 										<li>
 											<span class="list-icon"><i class="round-icon iconfont-map-marker"></i></span>
-											<div class="list-content">Lorem ipsum maecenas dapibus luctus euismod 133/2 New York City</div>
+											<div class="list-content">Улаанбаатар БГД 1р хороо </div>
 										</li>
 										<li>
 											<span class="list-icon"><i class="round-icon iconfont-phone"></i></span>
-											<div class="list-content">(+00)1344356-675</div>
+											<div class="list-content">(+976)7777-7777</div>
 										</li>
 										<li>
 											<span class="list-icon"><i class="round-icon iconfont-envelope-alt"></i></span>
-											<div class="list-content">support@themina.net</div>
+											<div class="list-content">support@shopy.mn</div>
 										</li>
 									</ul>
 								</div>
@@ -97,7 +96,7 @@
 											<div class="ads-caption bottom-right">
 												<a href="#" class="btn btn-default btn-round">
 													<i class="round-icon iconfont-angle-right"></i>
-													<span class="inline-middle">Show More</span>
+													<span class="inline-middle">цааш</span>
 												</a>
 											</div>
 										</div>
@@ -108,15 +107,15 @@
 						
 						<div class="col-xs-12 col-sm-12 col-md-3">
 							<section class="widget widget-subscription">
-								<h5 class="widget-title">Newletter</h5>
+								<h5 class="widget-title">Бүртгүүлэх</h5>
 								<div class="widget-content">
-									<p>Subscribe to be the first to know about Sales, Events, and Exclusive Offers!</p>
+									<p>И-мэйл хаягаа бүртгүүлсэнээр танд хямдрал урамшуулын мэдээлэл цаг алдахгүй очиж байх болно!</p>
 									<form action="" method="post">
 										<div class="input-group">
-											<label for="subscription-email" class="placeholder">Enter Your Email</label>
+											<label for="subscription-email" class="placeholder">И-мэйлээ оруулна уу</label>
 											<input type="email" id="subscription-email" name="email" class="form-control" required />
 											<span class="input-group-btn">
-												<button class="btn btn-primary">Subscribe</button>
+												<button class="btn btn-primary">Бүртгүүлэх</button>
 											</span>
 										</div>
 									</form>
@@ -138,15 +137,14 @@
 					<div class="col-xs-12 col-sm-6">
 						<div class="footer-links center-xs clearfix">
 							<ul class="unstyled">
-								<li><a href="#">Site Map</a></li>
+								<li><a href="#">Сайтын бүтэц</a></li>
 								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Work for us</a></li>
-								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Холбоо барих</a></li>
 							</ul>
 						</div>
 						<div class="space10"></div>
 						<div class="copyright center-xs">
-							<p>© 2013 Gfashion Demo Store. All Rights Reserved.</p>
+							<p>© <?php echo date('Y'); ?> Shopy.mn. Бүх эрх хуулиар хамгаалагдсан.</p>
 						</div>
 					</div>
 					

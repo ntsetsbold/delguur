@@ -17,9 +17,9 @@
 			<div class="container">
 				<div class="relative">
 					<ul class="bc unstyled clearfix">
-						<li><a href="#">Home</a></li>
-						<li><a href="products.php">Products</a></li>
-						<li class="active">Product Detail</li>
+						<li><a href="#">Нүүр</a></li>
+						<li><a href="products.php">Цүнх</a></li>
+						<li class="active">Solo Vintage Collection 17'-н нотебүүкний цүнх</li>
 					</ul>
 				</div>
 			</div>
@@ -33,17 +33,18 @@
 				<div class="container">
 					<div class="row">
 						<!-- PRODUCT PREVIEW -->
-						<div class="col-xs-12 col-sm-4">
+						<div class="col-xs-12 col-sm-6">
 							
 							<div class="product-preview">
 								<div class="big-image">
-									<a href="img/dummy/450x600.png" data-toggle="lightbox">
-										<img src="img/dummy/450x600.png" alt="" />
+									<a href="images/product0.jpg" data-toggle="lightbox">
+										<img src="images/product0.jpg" alt=""  style="width: 450px;"/>
 									</a>
 								</div>
 								<ul class="thumbs unstyled clearfix">
-									<li><a href="img/dummy/450x600.png"><img src="img/dummy/450x600.png" alt="" /></a></li>
-									<li><a href="img/dummy/450x600.png"><img src="img/dummy/450x600.png" alt="" /></a></li>
+                                    <?php for($i = 0; $i<3; $i++):?>
+									<li><a href="images/product<?php echo $i ?>.jpg"><img src="images/product<?php echo $i ?>.jpg" alt="" /></a></li>
+                                    <?php endfor; ?>
 								</ul>
 							</div>
 							
@@ -51,31 +52,29 @@
 						<!-- // PRODUCT PREVIEW -->
 						<div class="space40 visible-xs"></div>
 						<!-- PRODUCT DETAILS -->
-						<div class="col-xs-12 col-sm-8">
+						<div class="col-xs-12 col-sm-6">
 							<section class="product-details add-cart">
 								<header class="entry-header">
-									<h2 class="entry-title uppercase">Sexy Skirt</h2>
+									<h3 class="entry-title uppercase">
+                                        Solo Vintage Collection 17'-н нотебүүкний цүнх
+									</h3>
 								</header>
 								<article class="entry-content">
 									<figure>
-										<span class="entry-price inline-middle">$120</span>
+										<span class="entry-price inline-middle">120'000₮</span>
 										<div class="rate-bar inline-middle">
 											<input type="range" value="4.5" step="0.5" id="backing0" />
 											<div class="rateit" data-rateit-backingfld="#backing0" data-rateit-starwidth="12" data-rateit-starheight="12" data-rateit-resetable="false"  data-rateit-ispreset="true" data-rateit-min="0" data-rateit-max="5"></div>
 										</div>
-										<span class="entry-review-count inline-middle">( 2 Reviews )</span>
+										<span class="entry-review-count inline-middle">( 2 үнэлгээ )</span>
 										
 										<ul class="entry-meta unstyled">
 											<li>
-												<span class="key">Brand:</span>
-												<span class="value">Versace</span>
+												<span class="key">Брэнд:</span>
+												<span class="value">Solo</span>
 											</li>
 											<li>
-												<span class="key">Availability:</span>
-												<span class="value">In Stock</span>
-											</li>
-											<li>
-												<span class="key">Product Code:</span>
+												<span class="key">Барааны код:</span>
 												<span class="value">GF-123456</span>
 											</li>
 										</ul>
@@ -83,27 +82,27 @@
 										<div class="clearfix"></div>
 										
 										<figcaption class="m-b-sm">
-											<h5 class="subheader uppercase">Quick Overview:</h5>
+											<h5 class="subheader uppercase">Товч танилцуулга:</h5>
 											<p>Ut suscipit senectus ligula in non nisi nam lobortis sapien curabitur diam, fames morbi pharetra adipiscing massa ornare habitant quam eu placerat himenaeos, sem mattis tortor pretium tortor varius pretium nam metus euismod.</p>
 										</figcaption>
 										
 										<div class="row">
 											<div class="col-xs-12 col-sm-6">
-												<h5 class="subheader uppercase">Color:</h5>
+												<h5 class="subheader uppercase">Өнгө:</h5>
 												<div class="inline-middle styled-dd">
 													<select>
-														<option>-- Please Select --</option>
-														<option value="Black">Black</option>
-														<option value="Aubergine">Aubergine</option>
+														<option>-- Сонгоно уу --</option>
+														<option value="Black">Хар</option>
+														<option value="Aubergine">Хүрэн</option>
 													</select>
 												</div>
 											</div>
 											<div class="space30 visible-xs"></div>
 											<div class="col-xs-12 col-sm-6">
-												<h5 class="subheader uppercase">Size:</h5>
+												<h5 class="subheader uppercase">Хэмжээ:</h5>
 												<div class="inline-middle styled-dd">
 													<select>
-														<option>-- Please Select --</option>
+														<option>-- Сонгоно уу --</option>
 														<option value="xs">X-Small</option>
 														<option value="s">Small</option>
 													</select>
@@ -111,15 +110,12 @@
 											</div>
 										</div>
 										
-										<ul class="inline-li li-m-r-l m-t-lg">
+										<ul class="inline-li li-m-r-l m-t-lg" style="padding-left: 0px; margin-left: -4px;">
 											<li>
-												<a href="#" class="btn btn-default btn-lg btn-round add-to-cart">Add to Cart</a>
+												<a href="#" class="btn btn-default btn-lg btn-round add-to-cart">сагсанд нэмэх</a>
 											</li>
 											<li>
-												<a href="#">+ Add to Wishlist</a>
-											</li>
-											<li>
-												<a href="#">+ Add to Compare</a>
+												<a href="#">+ хүслийн жагсаалтанд нэмэх</a>
 											</li>
 										</ul>
 										
@@ -131,9 +127,9 @@
 					</div>
 					<div class="m-t-lg">
 						<ul class="nav nav-tabs">
-							<li class="active"><a href="#product-description" data-toggle="tab">Description</a></li>
-							<li><a href="#product-reviews" data-toggle="tab">Reviews</a></li>
-							<li><a href="#product-shipping" data-toggle="tab">Shipping</a></li>
+							<li class="active"><a href="#product-description" data-toggle="tab">Тайлбар</a></li>
+							<li><a href="#product-reviews" data-toggle="tab">Үнэлгээ</a></li>
+							<li><a href="#product-shipping" data-toggle="tab">Хүргэлт</a></li>
 						</ul>
 						<div class="tab-content">
 							<div class="tab-pane fade in active" id="product-description">
@@ -166,7 +162,7 @@
 				<div class="container">
 					<div class="row">
 						<header class="section-header clearfix col-sm-offset-3 col-sm-6">
-							<h3 class="section-title">feature products</h3>
+							<h3 class="section-title">онцлох бараа бүтээгдэхүүн</h3>
 							<p class="section-teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit ac lobortis lacus</p>
 						</header>
 						
@@ -182,7 +178,7 @@
 								</div>
 							</div>
 							
-							<div class="owl-carousel owl-theme" data-visible-items="4" data-navigation="true" data-lazyload="true">
+							<div class="owl-carousel owl-theme" data-visible-items="5" data-navigation="true" data-lazyload="true">
                                 <?php for($i = 0; $i < 12; $i++): ?>
 								<div class="product" data-product-id="<?php echo $i ?>">
 									<div class="entry-media">
@@ -216,7 +212,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>

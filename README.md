@@ -1,4 +1,0 @@
-delguur
-=======
-
-delguur

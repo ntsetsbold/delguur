@@ -16,8 +16,8 @@
 			<div class="container">
 				<div class="relative">
 					<ul class="bc push-up unstyled clearfix">
-						<li><a href="#">Home</a></li>
-						<li class="active">Products</li>
+						<li><a href="#">Нүүр</a></li>
+						<li class="active">Цүнх</li>
 					</ul>
 				</div>
 			</div>
@@ -37,14 +37,14 @@
 								<!-- CATEGORIES -->
 								<section class="side-section bg-white">
 									<header class="side-section-header">
-										<h3 class="side-section-title">Categories</h3>
+										<h3 class="side-section-title">Ангиллууд</h3>
 									</header>
 									<div class="side-section-content">
 										<ul id="category-list" class="vmenu unstyled">
 											<li>
-												<input type="checkbox" id="check-women" class="prettyCheckable" data-label="Women" data-labelPosition="right" value="women" />
+												<input type="checkbox" id="check-women" class="prettyCheckable" data-label="Электрон" data-labelPosition="right" value="Электрон" />
 												<ul>
-													<li><input type="checkbox" id="check-women-accessories" class="prettyCheckable" data-label="Accessories" data-labelPosition="right" value="women-accessories" /></li>
+													<li><input type="checkbox" id="check-women-accessories" class="prettyCheckable" data-label="Y" data-labelPosition="right" value="women-accessories" /></li>
 													<li><input type="checkbox" id="check-women-swimwear" class="prettyCheckable" data-label="Swimwear" data-labelPosition="right" value="women-swimwear" /></li>
 													<li><input type="checkbox" id="check-women-basics" class="prettyCheckable" data-label="Basics" data-labelPosition="right" value="women-basics" /></li>
 													<li><input type="checkbox" id="check-women-dresses" class="prettyCheckable" data-label="Dresses" data-labelPosition="right" value="women-dresses" /></li>
@@ -53,18 +53,30 @@
 													<li><input type="checkbox" id="check-women-legging" class="prettyCheckable" data-label="Leggings" data-labelPosition="right" value="women-legging" /></li>
 												</ul>
 											</li>
-											<li>
-												<input type="checkbox" id="check-men" class="prettyCheckable" data-label="Men" data-labelPosition="right" value="men" />
-												<ul>
-													<li><input type="checkbox" id="check-men-accessories" class="prettyCheckable" data-label="Accessories" data-labelPosition="right" value="men-accessories" /></li>
-													<li><input type="checkbox" id="check-men-jacket" class="prettyCheckable" data-label="Jackets" data-labelPosition="right" value="men-jacket" /></li>
-													<li><input type="checkbox" id="check-men-jumper" class="prettyCheckable" data-label="Jumpers" data-labelPosition="right" value="men-jumper" /></li>
-													<li><input type="checkbox" id="check-men-jean" class="prettyCheckable" data-label="Jeans" data-labelPosition="right" value="men-jean" /></li>
-													<li><input type="checkbox" id="check-men-shoe" class="prettyCheckable" data-label="Shoes" data-labelPosition="right" value="men-shoe" /></li>
-													<li><input type="checkbox" id="check-men-tshirt" class="prettyCheckable" data-label="T-Shirt & Polo Shirts" data-labelPosition="right" value="men-tshirt" /></li>
-													<li><input type="checkbox" id="check-men-blazers" class="prettyCheckable" data-label="Blazers" data-labelPosition="right" value="men-blazers" /></li>
-												</ul>
-											</li>
+                                            <li>
+                                                <input type="checkbox" id="check-men" class="prettyCheckable" data-label="Эрэгтэй" data-labelPosition="right" value="Эрэгтэй" />
+                                                <ul>
+                                                    <li><input type="checkbox" id="check-men-accessories" class="prettyCheckable" data-label="Accessories" data-labelPosition="right" value="men-accessories" /></li>
+                                                    <li><input type="checkbox" id="check-men-jacket" class="prettyCheckable" data-label="Jackets" data-labelPosition="right" value="men-jacket" /></li>
+                                                    <li><input type="checkbox" id="check-men-jumper" class="prettyCheckable" data-label="Jumpers" data-labelPosition="right" value="men-jumper" /></li>
+                                                    <li><input type="checkbox" id="check-men-jean" class="prettyCheckable" data-label="Jeans" data-labelPosition="right" value="men-jean" /></li>
+                                                    <li><input type="checkbox" id="check-men-shoe" class="prettyCheckable" data-label="Shoes" data-labelPosition="right" value="men-shoe" /></li>
+                                                    <li><input type="checkbox" id="check-men-tshirt" class="prettyCheckable" data-label="T-Shirt & Polo Shirts" data-labelPosition="right" value="men-tshirt" /></li>
+                                                    <li><input type="checkbox" id="check-men-blazers" class="prettyCheckable" data-label="Blazers" data-labelPosition="right" value="men-blazers" /></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="check-men" class="prettyCheckable" data-label="Эмэгтэй" data-labelPosition="right" value="Эмэгтэй" />
+                                                <ul>
+                                                    <li><input type="checkbox" id="check-men-accessories" class="prettyCheckable" data-label="Accessories" data-labelPosition="right" value="men-accessories" /></li>
+                                                    <li><input type="checkbox" id="check-men-jacket" class="prettyCheckable" data-label="Jackets" data-labelPosition="right" value="men-jacket" /></li>
+                                                    <li><input type="checkbox" id="check-men-jumper" class="prettyCheckable" data-label="Jumpers" data-labelPosition="right" value="men-jumper" /></li>
+                                                    <li><input type="checkbox" id="check-men-jean" class="prettyCheckable" data-label="Jeans" data-labelPosition="right" value="men-jean" /></li>
+                                                    <li><input type="checkbox" id="check-men-shoe" class="prettyCheckable" data-label="Shoes" data-labelPosition="right" value="men-shoe" /></li>
+                                                    <li><input type="checkbox" id="check-men-tshirt" class="prettyCheckable" data-label="T-Shirt & Polo Shirts" data-labelPosition="right" value="men-tshirt" /></li>
+                                                    <li><input type="checkbox" id="check-men-blazers" class="prettyCheckable" data-label="Blazers" data-labelPosition="right" value="men-blazers" /></li>
+                                                </ul>
+                                            </li>
 											<li>
 												<input type="checkbox" id="check-beauty" class="prettyCheckable" data-label="Beauty & Make-up" data-labelPosition="right" value="makeup" />
 											</li>
@@ -115,12 +127,12 @@
 								<!-- PRODUCT FILTER -->
 								<section class="side-section bg-white">
 									<header class="side-section-header">
-										<h3 class="side-section-title">Filter</h3>
+										<h3 class="side-section-title">Шүүх</h3>
 									</header>
 									
 									<!-- PRICE RANGE SLIDER -->
 									<div id="filter-by-price" class="side-section-content">
-										<h4 class="side-section-subheader">Filter By Price</h4>
+										<h4 class="side-section-subheader">Үнээр нь шүүх</h4>
 										<div class="range-slider-container">
 											<div class="range-slider" data-min="0" data-max="2000" data-step="10" data-currency="$"></div>
 											<div class="range-slider-value clearfix">

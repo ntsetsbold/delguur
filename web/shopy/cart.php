@@ -16,8 +16,8 @@
 			<div class="container">
 				<div class="relative">
 					<ul class="bc unstyled clearfix">
-						<li><a href="#">Home</a></li>
-						<li class="active">Shopping Cart</li>
+						<li><a href="#">Нүүр</a></li>
+						<li class="active">Таны сагс</li>
 					</ul>
 				</div>
 			</div>
@@ -33,10 +33,10 @@
 					<table class="tbl-cart">
 						<thead>
 							<tr>
-								<th>Product Name</th>
-								<th style="width: 15%;">Unit Price</th>
-								<th style="width: 15%;">QTY</th>
-								<th class="hidden-xs" style="width: 15%;">Sub Total</th>
+								<th>Бараа</th>
+								<th style="width: 15%;">Нэгж үнэ</th>
+								<th style="width: 15%;">Тоо</th>
+								<th class="hidden-xs" style="width: 15%;">Нийт</th>
 								<th class="hidden-xs" style="width: 10%;"></th>
 							</tr>
 						</thead>
@@ -69,25 +69,25 @@
 					
 					<div class="pull-left coupon m-b">
 						<div class="input-group">
-							<label for="apply-coupon" class="placeholder">Enter Your Coupon Code</label>
+							<label for="apply-coupon" class="placeholder">Хөнгөлөлтийн дугаар</label>
 							<input type="text" id="apply-coupon" name="coupon" class="form-control" required />
 							<span class="input-group-btn">
-								<button class="btn btn-primary">Apply Coupon</button>
+								<button class="btn btn-primary">илгээх</button>
 							</span>
 						</div>
 					</div>
 					
 					<div class="shopcart-total pull-right clearfix">
-						<div class="cart-subtotal text-xs m-b-sm clearfix">
-							<span class="pull-left">Sub Total:</span>
-							<span class="pull-right">$1050.00</span>
-						</div>
+<!--						<div class="cart-subtotal text-xs m-b-sm clearfix">-->
+<!--							<span class="pull-left">Sub Total:</span>-->
+<!--							<span class="pull-right">$1050.00</span>-->
+<!--						</div>-->
 						<div class="cart-total text-bold m-b-lg clearfix">
-							<span class="pull-left">Grand Total:</span>
+							<span class="pull-left">Нийт үнэ:</span>
 							<span class="pull-right">$1050.00</span>
 						</div>
 						<div class="text-center">
-							<a class="btn btn-round btn-default uppercase" href="checkout.php">Proceed to checkout</a>
+							<a class="btn btn-round btn-default uppercase" href="checkout.php">Захиалга эхлүүх</a>
 						</div>
 					</div>
 					
@@ -100,8 +100,8 @@
 				<div class="container">
 					<div class="row">
 						<header class="section-header clearfix col-sm-offset-3 col-sm-6">
-							<h3 class="section-title">You may be interested in</h3>
-							<p class="section-teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit ac lobortis lacus</p>
+							<h3 class="section-title">Санал болгох бараа</h3>
+<!--							<p class="section-teaser">Lorem ipsum dolor sit amet, consectetur adipiscing elit ac lobortis lacus</p>-->
 						</header>
 						
 						<div class="clearfix"></div>
@@ -149,7 +149,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -182,7 +181,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -218,7 +216,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -251,7 +248,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -288,7 +284,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -321,7 +316,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -357,7 +351,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
@@ -390,7 +383,6 @@
 										</div>
 										<div class="entry-links clearfix">
 											<a href="#" class="pull-left m-r">+ Add to Wishlist</a>
-											<a href="#" class="pull-right">+ Add to Compare</a>
 										</div>
 									</div>
 								</div>
