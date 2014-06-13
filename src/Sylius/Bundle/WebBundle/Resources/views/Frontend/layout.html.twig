@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+{% set settings = sylius_settings_all('general') %}
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="noIE" lang="en-US"><!--<![endif]-->
+<html>
+    <head>
+        <title>
+            {% block title %}
+                {{ settings.title|default('sylius.meta.frontend_title'|trans) }}
+            {% endblock %}
+        </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="{{ settings.meta_description|default('sylius.meta.frontend_description'|trans) }}">
+        <meta name="keywords" content="{{ settings.meta_keywords|default('sylius.meta.frontend_keywords'|trans) }}">
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+
+        {# stylesheets... #}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="/shopy/font/open-sans/style.css" type="text/css">
+            <link rel="stylesheet" href="/shopy/font/fontawesome/style.css" type="text/css" media="screen" />
+
+            <!-- GENERAL CSS FILES -->
+            <link rel="stylesheet" href="/shopy/css/bootstrap.min.css">
+            <link rel="stylesheet" href="/shopy/css/bootstrap-theme.css">
+            <link rel="stylesheet" href="/shopy/css/animate.css">
+            <link rel="stylesheet" href="/shopy/css/magnific-popup.css">
+            <link rel="stylesheet" href="/shopy/css/style.css">
+            <link rel="stylesheet" href="/shopy/css/main.css">
+            <!-- // GENERAL CSS FILES -->
+
+            <!-- PARTICULAR PAGES CSS FILES -->
+            <link rel="stylesheet" href="/shopy/css/owl.carousel.css">
+            <link rel="stylesheet" href="/shopy/css/owl.theme.css">
+            <!-- // PARTICULAR PAGES CSS FILES -->
+            <link rel="stylesheet" href="/shopy/css/responsive.css">
+
+        {% endblock %}
+
+        <!--[if IE 8]>
+        <script src="/shopy/js/respond.min.js"></script>
+        <script src="/shopy/js/selectivizr-min.js"></script>
+        <![endif]-->
+
+        <script>window.jQuery || document.write('<script src="/shopy/js/jquery.min.js"><\/script>');</script>
+        <script src="/shopy/js/modernizr.min.js"></script>
+
+    </head>
+    <body>
+
+    <!-- PAGE WRAPPER -->
+    <div id="page-wrapper">
+
+       {% include 'SyliusWebBundle:Frontend:header.html.twig' %}
+
+        {% block main %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3" id="sidebar">
+                        {% block sidebar %}
+                            <h4>{{ 'sylius.shop_by'|trans }}</h4><br>
+                            {{ knp_menu_render('sylius.frontend.taxonomies', {'template': 'SyliusWebBundle:Frontend:menu.html.twig'}) }}
+                            {{ render(url('sylius_partial_product_latest', {'limit': 5, 'template': 'SyliusWebBundle:Frontend/Product:latestSidebar.html.twig'})) }}
+                            {{ sonata_block_render({'name': '/cms/blocks/contact'}) }}
+
+                            <h2>Links</h2>
+                            <ul>
+                                {% for child in cmf_children(cmf_find('/cms/pages')) %}
+                                    <li>
+                                        <a href="{{ path(child) }}">{{ child.title|striptags }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endblock %}
+                    </div>
+                    <div class="col-md-9">
+                        {% block content %}
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
+
+        <div class="container">
+            {% block gallery %}
+                {# Gallery modal #}
+                {% include 'SyliusWebBundle::gallery.html.twig' %}
+            {% endblock %}
+
+            {# Confirmation modal #}
+            {% include 'SyliusWebBundle::confirm-modal.html.twig' %}
+        </div>
+
+
+        {% block footer %}
+            {% include 'SyliusWebBundle:Frontend:footer.html.twig' %}
+        {% endblock %}
+
+        </div>
+        {# javascripts... #}
+        {% block javascripts %}
+            <!-- Essential Javascripts -->
+            <script src="/shopy/js/bootstrap.min.js"></script>
+            <script src="/shopy/js/package.min.js"></script>
+            <script src="/shopy/js/jquery.magnific-popup.min.js"></script>
+            <script src="/shopy/js/add-to-cart.js"></script>
+            <script src="/shopy/js/jquery-cookie.js"></script>
+            <script src="/shopy/js/scripts.js"></script>
+            <!-- // Essential Javascripts -->
+
+            <script src="/shopy/js/owl.carousel.js"></script>
+        {% endblock %}
+    </body>
+</html>
